@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Pages</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
 </head>
 <body>
+    <div class="alert alert-danger" id="errors"></div>
+    <!-- Login section -->
+    <section class="container center rounded-lg shadow p-3 mb-5 bg-white" id="login">
+        <div class="container">
+            <h1>Login</h1>
+            <section class="text-left" id="form-login">
+                <form onsubmit="login()">
+                    <div class="form-group">
+                      <label for="login-email">Email Address</label>
+                      <input type="email" class="form-control" placeholder="email@domain.com" id="login-email">
+                    </div>
+                    <div class="form-group">
+                      <label for="login-password">Password</label>
+                      <input type="password" class="form-control" placeholder="Enter password" id="login-password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-info">Login</button>
+                        <button type="button" class="btn btn-outline-secondary">Register</button>
+                    </div>
+                </form>
+            </section>
+            <button type="button" class="btn btn-primary btn-block">Google</button>
+        </div>
+    </section>
+
+    <!-- Register section -->
+    <section class="container center rounded-lg shadow p-3 mb-5 bg-white" id="register">
+        <div class="container">
+            <h1>Register</h1>
+            
+            <section class="text-left" id="form-register">
+                <form onsubmit="register()">
+                    <div class="form-group">
+                      <label for="register-email">Email Address</label>
+                      <input type="email" class="form-control" placeholder="email@domain.com" id="register-email">
+                    </div>
+                    <div class="form-group">
+                      <label for="register-password">Password</label>
+                      <input type="password" class="form-control" placeholder="Enter password" id="register-password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success">Register</button>
+                        <button type="button" class="btn btn-outline-danger">Cancel</button>
+                    </div>
+                </form>
+            </section>
+            <button type="button" class="btn btn-primary btn-block">Google</button>
+        </div>
+    </section>
     
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>

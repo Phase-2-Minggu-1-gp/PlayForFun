@@ -14,26 +14,47 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <!-- Button -->
+    <div id="landing-page">
+        <div class="row">
+            <div class="card" onclick="showAll()" style="width: 18rem;">
+                <img src="https://i.pinimg.com/originals/ae/cc/5f/aecc5f1a5322ae99b7daa9448b1c3653.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text" style="text-align: center;">Show Some Cards</p>
+                </div>
+                </div>
+                <div class="card" onclick="showSearch()" style="width: 18rem;">
+                <img src="https://cutewallpaper.org/21/mtg-arena-wallpaper/Magic-The-Gathering-Arena-Throne-of-Eldraine-card-reveal-.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text" style="text-align: center;">Search Card By Its Multiverse Id</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Show Card By Id -->
     <div id="search-card-container">
-        <div class="row">
+        <button type="button" onclick="landing()" class="btn btn-danger">Back</button>
+        <div id="search-card" class="row">
             <form id="search-form" onsubmit="findOne(event)">
                 <div class="form-group">
                     <label for="searchId">Search Card By Id:</label>
                     <input type="number" class="form-control" name="cardId" id="searchId" placeholder="e.g. 386616"><br>
                     <button id="btn-search" type="submit" class="btn btn-primary"> Search </button>
-                  </div>
+                </div>
             </form>
-            <div id="one-card-container" class="row">
-                <!-- isinya di mtg.js -->
-            </div>
+        </div>
+        <div id="one-card-container" class="row">
+            <!-- isinya di mtg.js -->
         </div>
     </div>
 
     <!-- List Cards -->
-    <div id="all-cards-container" class="row">
-        <!-- isinya di mtg.js -->
+    <div id="all-cards-container">
+        <button type="button" onclick="landing()" class="btn btn-danger">Back</button>
+        <div id="all-cards" class="row">
+            <!-- isinya di mtg.js -->
+        </div>
     </div>
 
 

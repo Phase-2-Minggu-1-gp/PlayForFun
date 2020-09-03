@@ -1,0 +1,2926 @@
+[
+    {
+        "sid": 1,
+        "name": "A-Bomb"
+    },
+    {
+        "sid": 2,
+        "name": "Abe Sapien"
+    },
+    {
+        "sid": 3,
+        "name": "Abin Sur"
+    },
+    {
+        "sid": 4,
+        "name": "Abomination"
+    },
+    {
+        "sid": 5,
+        "name": "Abraxas"
+    },
+    {
+        "sid": 6,
+        "name": "Absorbing Man"
+    },
+    {
+        "sid": 7,
+        "name": "Adam Monroe"
+    },
+    {
+        "sid": 8,
+        "name": "Adam Strange"
+    },
+    {
+        "sid": 9,
+        "name": "Agent 13"
+    },
+    {
+        "sid": 10,
+        "name": "Agent Bob"
+    },
+    {
+        "sid": 11,
+        "name": "Agent Zero"
+    },
+    {
+        "sid": 12,
+        "name": "Air-Walker"
+    },
+    {
+        "sid": 13,
+        "name": "Ajax"
+    },
+    {
+        "sid": 14,
+        "name": "Alan Scott"
+    },
+    {
+        "sid": 15,
+        "name": "Alex Mercer"
+    },
+    {
+        "sid": 16,
+        "name": "Alex Woolsly"
+    },
+    {
+        "sid": 17,
+        "name": "Alfred Pennyworth"
+    },
+    {
+        "sid": 18,
+        "name": "Alien"
+    },
+    {
+        "sid": 19,
+        "name": "Allan Quatermain"
+    },
+    {
+        "sid": 20,
+        "name": "Amazo"
+    },
+    {
+        "sid": 21,
+        "name": "Ammo"
+    },
+    {
+        "sid": 22,
+        "name": "Ando Masahashi"
+    },
+    {
+        "sid": 23,
+        "name": "Angel"
+    },
+    {
+        "sid": 24,
+        "name": "Angel"
+    },
+    {
+        "sid": 25,
+        "name": "Angel Dust"
+    },
+    {
+        "sid": 26,
+        "name": "Angel Salvadore"
+    },
+    {
+        "sid": 27,
+        "name": "Angela"
+    },
+    {
+        "sid": 28,
+        "name": "Animal Man"
+    },
+    {
+        "sid": 29,
+        "name": "Annihilus"
+    },
+    {
+        "sid": 30,
+        "name": "Ant-Man"
+    },
+    {
+        "sid": 31,
+        "name": "Ant-Man II"
+    },
+    {
+        "sid": 32,
+        "name": "Anti-Monitor"
+    },
+    {
+        "sid": 33,
+        "name": "Anti-Spawn"
+    },
+    {
+        "sid": 34,
+        "name": "Anti-Venom"
+    },
+    {
+        "sid": 35,
+        "name": "Apocalypse"
+    },
+    {
+        "sid": 36,
+        "name": "Aquababy"
+    },
+    {
+        "sid": 37,
+        "name": "Aqualad"
+    },
+    {
+        "sid": 38,
+        "name": "Aquaman"
+    },
+    {
+        "sid": 39,
+        "name": "Arachne"
+    },
+    {
+        "sid": 40,
+        "name": "Archangel"
+    },
+    {
+        "sid": 41,
+        "name": "Arclight"
+    },
+    {
+        "sid": 42,
+        "name": "Ardina"
+    },
+    {
+        "sid": 43,
+        "name": "Ares"
+    },
+    {
+        "sid": 44,
+        "name": "Ariel"
+    },
+    {
+        "sid": 45,
+        "name": "Armor"
+    },
+    {
+        "sid": 46,
+        "name": "Arsenal"
+    },
+    {
+        "sid": 47,
+        "name": "Astro Boy"
+    },
+    {
+        "sid": 48,
+        "name": "Atlas"
+    },
+    {
+        "sid": 49,
+        "name": "Atlas"
+    },
+    {
+        "sid": 50,
+        "name": "Atom"
+    },
+    {
+        "sid": 51,
+        "name": "Atom"
+    },
+    {
+        "sid": 52,
+        "name": "Atom Girl"
+    },
+    {
+        "sid": 53,
+        "name": "Atom II"
+    },
+    {
+        "sid": 54,
+        "name": "Atom III"
+    },
+    {
+        "sid": 55,
+        "name": "Atom IV"
+    },
+    {
+        "sid": 56,
+        "name": "Aurora"
+    },
+    {
+        "sid": 57,
+        "name": "Azazel"
+    },
+    {
+        "sid": 58,
+        "name": "Azrael"
+    },
+    {
+        "sid": 59,
+        "name": "Aztar"
+    },
+    {
+        "sid": 60,
+        "name": "Bane"
+    },
+    {
+        "sid": 61,
+        "name": "Banshee"
+    },
+    {
+        "sid": 62,
+        "name": "Bantam"
+    },
+    {
+        "sid": 63,
+        "name": "Batgirl"
+    },
+    {
+        "sid": 64,
+        "name": "Batgirl"
+    },
+    {
+        "sid": 65,
+        "name": "Batgirl III"
+    },
+    {
+        "sid": 66,
+        "name": "Batgirl IV"
+    },
+    {
+        "sid": 67,
+        "name": "Batgirl V"
+    },
+    {
+        "sid": 68,
+        "name": "Batgirl VI"
+    },
+    {
+        "sid": 69,
+        "name": "Batman"
+    },
+    {
+        "sid": 70,
+        "name": "Batman"
+    },
+    {
+        "sid": 71,
+        "name": "Batman II"
+    },
+    {
+        "sid": 72,
+        "name": "Battlestar"
+    },
+    {
+        "sid": 73,
+        "name": "Batwoman V"
+    },
+    {
+        "sid": 74,
+        "name": "Beak"
+    },
+    {
+        "sid": 75,
+        "name": "Beast"
+    },
+    {
+        "sid": 76,
+        "name": "Beast Boy"
+    },
+    {
+        "sid": 77,
+        "name": "Beetle"
+    },
+    {
+        "sid": 78,
+        "name": "Ben 10"
+    },
+    {
+        "sid": 79,
+        "name": "Beta Ray Bill"
+    },
+    {
+        "sid": 80,
+        "name": "Beyonder"
+    },
+    {
+        "sid": 81,
+        "name": "Big Barda"
+    },
+    {
+        "sid": 82,
+        "name": "Big Daddy"
+    },
+    {
+        "sid": 83,
+        "name": "Big Man"
+    },
+    {
+        "sid": 84,
+        "name": "Bill Harken"
+    },
+    {
+        "sid": 85,
+        "name": "Billy Kincasid"
+    },
+    {
+        "sid": 86,
+        "name": "Binary"
+    },
+    {
+        "sid": 87,
+        "name": "Bionic Woman"
+    },
+    {
+        "sid": 88,
+        "name": "Bird-Brain"
+    },
+    {
+        "sid": 89,
+        "name": "Bird-Man"
+    },
+    {
+        "sid": 90,
+        "name": "Bird-Man II"
+    },
+    {
+        "sid": 91,
+        "name": "Birdman"
+    },
+    {
+        "sid": 92,
+        "name": "Bishop"
+    },
+    {
+        "sid": 93,
+        "name": "Bizarro"
+    },
+    {
+        "sid": 94,
+        "name": "Black Abbott"
+    },
+    {
+        "sid": 95,
+        "name": "Black Adam"
+    },
+    {
+        "sid": 96,
+        "name": "Black Bolt"
+    },
+    {
+        "sid": 97,
+        "name": "Black Canary"
+    },
+    {
+        "sid": 98,
+        "name": "Black Canary"
+    },
+    {
+        "sid": 99,
+        "name": "Black Cat"
+    },
+    {
+        "sid": 100,
+        "name": "Black Flash"
+    },
+    {
+        "sid": 101,
+        "name": "Black Goliath"
+    },
+    {
+        "sid": 102,
+        "name": "Black Knight III"
+    },
+    {
+        "sid": 103,
+        "name": "Black Lightning"
+    },
+    {
+        "sid": 104,
+        "name": "Black Mamba"
+    },
+    {
+        "sid": 105,
+        "name": "Black Manta"
+    },
+    {
+        "sid": 106,
+        "name": "Black Panther"
+    },
+    {
+        "sid": 107,
+        "name": "Black Wsidow"
+    },
+    {
+        "sid": 108,
+        "name": "Black Wsidow II"
+    },
+    {
+        "sid": 109,
+        "name": "Blackout"
+    },
+    {
+        "sid": 110,
+        "name": "Blackwing"
+    },
+    {
+        "sid": 111,
+        "name": "Blackwulf"
+    },
+    {
+        "sid": 112,
+        "name": "Blade"
+    },
+    {
+        "sid": 113,
+        "name": "Blaquesmith"
+    },
+    {
+        "sid": 114,
+        "name": "Bling!"
+    },
+    {
+        "sid": 115,
+        "name": "Blink"
+    },
+    {
+        "sid": 116,
+        "name": "Blizzard"
+    },
+    {
+        "sid": 117,
+        "name": "Blizzard"
+    },
+    {
+        "sid": 118,
+        "name": "Blizzard II"
+    },
+    {
+        "sid": 119,
+        "name": "Blob"
+    },
+    {
+        "sid": 120,
+        "name": "Bloodaxe"
+    },
+    {
+        "sid": 121,
+        "name": "Bloodhawk"
+    },
+    {
+        "sid": 122,
+        "name": "Bloodwraith"
+    },
+    {
+        "sid": 123,
+        "name": "Blue Beetle"
+    },
+    {
+        "sid": 124,
+        "name": "Blue Beetle"
+    },
+    {
+        "sid": 125,
+        "name": "Blue Beetle II"
+    },
+    {
+        "sid": 126,
+        "name": "Blue Beetle III"
+    },
+    {
+        "sid": 127,
+        "name": "Boba Fett"
+    },
+    {
+        "sid": 128,
+        "name": "Bolt"
+    },
+    {
+        "sid": 129,
+        "name": "Bomb Queen"
+    },
+    {
+        "sid": 130,
+        "name": "Boom-Boom"
+    },
+    {
+        "sid": 131,
+        "name": "Boomer"
+    },
+    {
+        "sid": 132,
+        "name": "Booster Gold"
+    },
+    {
+        "sid": 133,
+        "name": "Box"
+    },
+    {
+        "sid": 134,
+        "name": "Box III"
+    },
+    {
+        "sid": 135,
+        "name": "Box IV"
+    },
+    {
+        "sid": 136,
+        "name": "Brainiac"
+    },
+    {
+        "sid": 137,
+        "name": "Brainiac 5"
+    },
+    {
+        "sid": 138,
+        "name": "Brother Voodoo"
+    },
+    {
+        "sid": 139,
+        "name": "Brundlefly"
+    },
+    {
+        "sid": 140,
+        "name": "Buffy"
+    },
+    {
+        "sid": 141,
+        "name": "Bullseye"
+    },
+    {
+        "sid": 142,
+        "name": "Bumblebee"
+    },
+    {
+        "sid": 143,
+        "name": "Bumbleboy"
+    },
+    {
+        "sid": 144,
+        "name": "Bushsido"
+    },
+    {
+        "sid": 145,
+        "name": "Cable"
+    },
+    {
+        "sid": 146,
+        "name": "Callisto"
+    },
+    {
+        "sid": 147,
+        "name": "Cameron Hicks"
+    },
+    {
+        "sid": 148,
+        "name": "Cannonball"
+    },
+    {
+        "sid": 149,
+        "name": "Captain America"
+    },
+    {
+        "sid": 150,
+        "name": "Captain Atom"
+    },
+    {
+        "sid": 151,
+        "name": "Captain Britain"
+    },
+    {
+        "sid": 152,
+        "name": "Captain Cold"
+    },
+    {
+        "sid": 153,
+        "name": "Captain Epic"
+    },
+    {
+        "sid": 154,
+        "name": "Captain Hindsight"
+    },
+    {
+        "sid": 155,
+        "name": "Captain Mar-vell"
+    },
+    {
+        "sid": 156,
+        "name": "Captain Marvel"
+    },
+    {
+        "sid": 157,
+        "name": "Captain Marvel"
+    },
+    {
+        "sid": 158,
+        "name": "Captain Marvel II"
+    },
+    {
+        "sid": 159,
+        "name": "Captain Msidnight"
+    },
+    {
+        "sid": 160,
+        "name": "Captain Planet"
+    },
+    {
+        "sid": 161,
+        "name": "Captain Universe"
+    },
+    {
+        "sid": 162,
+        "name": "Carnage"
+    },
+    {
+        "sid": 163,
+        "name": "Cat"
+    },
+    {
+        "sid": 164,
+        "name": "Cat II"
+    },
+    {
+        "sid": 165,
+        "name": "Catwoman"
+    },
+    {
+        "sid": 166,
+        "name": "Cecilia Reyes"
+    },
+    {
+        "sid": 167,
+        "name": "Century"
+    },
+    {
+        "sid": 168,
+        "name": "Cerebra"
+    },
+    {
+        "sid": 169,
+        "name": "Chamber"
+    },
+    {
+        "sid": 170,
+        "name": "Chameleon"
+    },
+    {
+        "sid": 171,
+        "name": "Changeling"
+    },
+    {
+        "sid": 172,
+        "name": "Cheetah"
+    },
+    {
+        "sid": 173,
+        "name": "Cheetah II"
+    },
+    {
+        "sid": 174,
+        "name": "Cheetah III"
+    },
+    {
+        "sid": 175,
+        "name": "Chromos"
+    },
+    {
+        "sid": 176,
+        "name": "Chuck Norris"
+    },
+    {
+        "sid": 177,
+        "name": "Citizen Steel"
+    },
+    {
+        "sid": 178,
+        "name": "Claire Bennet"
+    },
+    {
+        "sid": 179,
+        "name": "Clea"
+    },
+    {
+        "sid": 180,
+        "name": "Cloak"
+    },
+    {
+        "sid": 181,
+        "name": "Clock King"
+    },
+    {
+        "sid": 182,
+        "name": "Cogliostro"
+    },
+    {
+        "sid": 183,
+        "name": "Colin Wagner"
+    },
+    {
+        "sid": 184,
+        "name": "Colossal Boy"
+    },
+    {
+        "sid": 185,
+        "name": "Colossus"
+    },
+    {
+        "sid": 186,
+        "name": "Copycat"
+    },
+    {
+        "sid": 187,
+        "name": "Corsair"
+    },
+    {
+        "sid": 188,
+        "name": "Cottonmouth"
+    },
+    {
+        "sid": 189,
+        "name": "Crimson Crusader"
+    },
+    {
+        "sid": 190,
+        "name": "Crimson Dynamo"
+    },
+    {
+        "sid": 191,
+        "name": "Crystal"
+    },
+    {
+        "sid": 192,
+        "name": "Curse"
+    },
+    {
+        "sid": 193,
+        "name": "Cy-Gor"
+    },
+    {
+        "sid": 194,
+        "name": "Cyborg"
+    },
+    {
+        "sid": 195,
+        "name": "Cyborg Superman"
+    },
+    {
+        "sid": 196,
+        "name": "Cyclops"
+    },
+    {
+        "sid": 197,
+        "name": "Cypher"
+    },
+    {
+        "sid": 198,
+        "name": "Dagger"
+    },
+    {
+        "sid": 199,
+        "name": "Danny Cooper"
+    },
+    {
+        "sid": 200,
+        "name": "Daphne Powell"
+    },
+    {
+        "sid": 201,
+        "name": "Daredevil"
+    },
+    {
+        "sid": 202,
+        "name": "Darkhawk"
+    },
+    {
+        "sid": 203,
+        "name": "Darkman"
+    },
+    {
+        "sid": 204,
+        "name": "Darksesid"
+    },
+    {
+        "sid": 205,
+        "name": "Darksside"
+    },
+    {
+        "sid": 206,
+        "name": "Darkstar"
+    },
+    {
+        "sid": 207,
+        "name": "Darth Maul"
+    },
+    {
+        "sid": 208,
+        "name": "Darth Vader"
+    },
+    {
+        "sid": 209,
+        "name": "Dash"
+    },
+    {
+        "sid": 210,
+        "name": "Data"
+    },
+    {
+        "sid": 211,
+        "name": "Dazzler"
+    },
+    {
+        "sid": 212,
+        "name": "Deadman"
+    },
+    {
+        "sid": 213,
+        "name": "Deadpool"
+    },
+    {
+        "sid": 214,
+        "name": "Deadshot"
+    },
+    {
+        "sid": 215,
+        "name": "Deathlok"
+    },
+    {
+        "sid": 216,
+        "name": "Deathstroke"
+    },
+    {
+        "sid": 217,
+        "name": "Demogoblin"
+    },
+    {
+        "sid": 218,
+        "name": "Destroyer"
+    },
+    {
+        "sid": 219,
+        "name": "Diamondback"
+    },
+    {
+        "sid": 220,
+        "name": "DL Hawkins"
+    },
+    {
+        "sid": 221,
+        "name": "Doc Samson"
+    },
+    {
+        "sid": 222,
+        "name": "Doctor Doom"
+    },
+    {
+        "sid": 223,
+        "name": "Doctor Doom II"
+    },
+    {
+        "sid": 224,
+        "name": "Doctor Fate"
+    },
+    {
+        "sid": 225,
+        "name": "Doctor Octopus"
+    },
+    {
+        "sid": 226,
+        "name": "Doctor Strange"
+    },
+    {
+        "sid": 227,
+        "name": "Domino"
+    },
+    {
+        "sid": 228,
+        "name": "Donatello"
+    },
+    {
+        "sid": 229,
+        "name": "Donna Troy"
+    },
+    {
+        "sid": 230,
+        "name": "Doomsday"
+    },
+    {
+        "sid": 231,
+        "name": "Doppelganger"
+    },
+    {
+        "sid": 232,
+        "name": "Dormammu"
+    },
+    {
+        "sid": 233,
+        "name": "Dr Manhattan"
+    },
+    {
+        "sid": 234,
+        "name": "Drax the Destroyer"
+    },
+    {
+        "sid": 235,
+        "name": "Ego"
+    },
+    {
+        "sid": 236,
+        "name": "Elastigirl"
+    },
+    {
+        "sid": 237,
+        "name": "Electro"
+    },
+    {
+        "sid": 238,
+        "name": "Elektra"
+    },
+    {
+        "sid": 239,
+        "name": "Elle Bishop"
+    },
+    {
+        "sid": 240,
+        "name": "Elongated Man"
+    },
+    {
+        "sid": 241,
+        "name": "Emma Frost"
+    },
+    {
+        "sid": 242,
+        "name": "Enchantress"
+    },
+    {
+        "sid": 243,
+        "name": "Energy"
+    },
+    {
+        "sid": 244,
+        "name": "ERG-1"
+    },
+    {
+        "sid": 245,
+        "name": "Ethan Hunt"
+    },
+    {
+        "sid": 246,
+        "name": "Etrigan"
+    },
+    {
+        "sid": 247,
+        "name": "Evil Deadpool"
+    },
+    {
+        "sid": 248,
+        "name": "Evilhawk"
+    },
+    {
+        "sid": 249,
+        "name": "Exodus"
+    },
+    {
+        "sid": 250,
+        "name": "Fabian Cortez"
+    },
+    {
+        "sid": 251,
+        "name": "Falcon"
+    },
+    {
+        "sid": 252,
+        "name": "Fallen One II"
+    },
+    {
+        "sid": 253,
+        "name": "Faora"
+    },
+    {
+        "sid": 254,
+        "name": "Feral"
+    },
+    {
+        "sid": 255,
+        "name": "Fighting Spirit"
+    },
+    {
+        "sid": 256,
+        "name": "Fin Fang Foom"
+    },
+    {
+        "sid": 257,
+        "name": "Firebird"
+    },
+    {
+        "sid": 258,
+        "name": "Firelord"
+    },
+    {
+        "sid": 259,
+        "name": "Firestar"
+    },
+    {
+        "sid": 260,
+        "name": "Firestorm"
+    },
+    {
+        "sid": 261,
+        "name": "Firestorm"
+    },
+    {
+        "sid": 262,
+        "name": "Fixer"
+    },
+    {
+        "sid": 263,
+        "name": "Flash"
+    },
+    {
+        "sid": 264,
+        "name": "Flash Gordon"
+    },
+    {
+        "sid": 265,
+        "name": "Flash II"
+    },
+    {
+        "sid": 266,
+        "name": "Flash III"
+    },
+    {
+        "sid": 267,
+        "name": "Flash IV"
+    },
+    {
+        "sid": 268,
+        "name": "Forge"
+    },
+    {
+        "sid": 269,
+        "name": "Franklin Richards"
+    },
+    {
+        "sid": 270,
+        "name": "Franklin Storm"
+    },
+    {
+        "sid": 271,
+        "name": "Frenzy"
+    },
+    {
+        "sid": 272,
+        "name": "Frigga"
+    },
+    {
+        "sid": 273,
+        "name": "Galactus"
+    },
+    {
+        "sid": 274,
+        "name": "Gambit"
+    },
+    {
+        "sid": 275,
+        "name": "Gamora"
+    },
+    {
+        "sid": 276,
+        "name": "Garbage Man"
+    },
+    {
+        "sid": 277,
+        "name": "Gary Bell"
+    },
+    {
+        "sid": 278,
+        "name": "General Zod"
+    },
+    {
+        "sid": 279,
+        "name": "Genesis"
+    },
+    {
+        "sid": 280,
+        "name": "Ghost Rsider"
+    },
+    {
+        "sid": 281,
+        "name": "Ghost Rsider II"
+    },
+    {
+        "sid": 282,
+        "name": "Giant-Man"
+    },
+    {
+        "sid": 283,
+        "name": "Giant-Man II"
+    },
+    {
+        "sid": 284,
+        "name": "Giganta"
+    },
+    {
+        "sid": 285,
+        "name": "Gladiator"
+    },
+    {
+        "sid": 286,
+        "name": "Goblin Queen"
+    },
+    {
+        "sid": 287,
+        "name": "Godzilla"
+    },
+    {
+        "sid": 288,
+        "name": "Gog"
+    },
+    {
+        "sid": 289,
+        "name": "Goku"
+    },
+    {
+        "sid": 290,
+        "name": "Goliath"
+    },
+    {
+        "sid": 291,
+        "name": "Goliath"
+    },
+    {
+        "sid": 292,
+        "name": "Goliath"
+    },
+    {
+        "sid": 293,
+        "name": "Goliath IV"
+    },
+    {
+        "sid": 294,
+        "name": "Gorilla Grodd"
+    },
+    {
+        "sid": 295,
+        "name": "Granny Goodness"
+    },
+    {
+        "sid": 296,
+        "name": "Gravity"
+    },
+    {
+        "sid": 297,
+        "name": "Greedo"
+    },
+    {
+        "sid": 298,
+        "name": "Green Arrow"
+    },
+    {
+        "sid": 299,
+        "name": "Green Goblin"
+    },
+    {
+        "sid": 300,
+        "name": "Green Goblin II"
+    },
+    {
+        "sid": 301,
+        "name": "Green Goblin III"
+    },
+    {
+        "sid": 302,
+        "name": "Green Goblin IV"
+    },
+    {
+        "sid": 303,
+        "name": "Groot"
+    },
+    {
+        "sid": 304,
+        "name": "Guardian"
+    },
+    {
+        "sid": 305,
+        "name": "Guy Gardner"
+    },
+    {
+        "sid": 306,
+        "name": "Hal Jordan"
+    },
+    {
+        "sid": 307,
+        "name": "Han Solo"
+    },
+    {
+        "sid": 308,
+        "name": "Hancock"
+    },
+    {
+        "sid": 309,
+        "name": "Harley Quinn"
+    },
+    {
+        "sid": 310,
+        "name": "Harry Potter"
+    },
+    {
+        "sid": 311,
+        "name": "Havok"
+    },
+    {
+        "sid": 312,
+        "name": "Hawk"
+    },
+    {
+        "sid": 313,
+        "name": "Hawkeye"
+    },
+    {
+        "sid": 314,
+        "name": "Hawkeye II"
+    },
+    {
+        "sid": 315,
+        "name": "Hawkgirl"
+    },
+    {
+        "sid": 316,
+        "name": "Hawkman"
+    },
+    {
+        "sid": 317,
+        "name": "Hawkwoman"
+    },
+    {
+        "sid": 318,
+        "name": "Hawkwoman II"
+    },
+    {
+        "sid": 319,
+        "name": "Hawkwoman III"
+    },
+    {
+        "sid": 320,
+        "name": "Heat Wave"
+    },
+    {
+        "sid": 321,
+        "name": "Hela"
+    },
+    {
+        "sid": 322,
+        "name": "Hellboy"
+    },
+    {
+        "sid": 323,
+        "name": "Hellcat"
+    },
+    {
+        "sid": 324,
+        "name": "Hellstorm"
+    },
+    {
+        "sid": 325,
+        "name": "Hercules"
+    },
+    {
+        "sid": 326,
+        "name": "Hiro Nakamura"
+    },
+    {
+        "sid": 327,
+        "name": "Hit-Girl"
+    },
+    {
+        "sid": 328,
+        "name": "Hobgoblin"
+    },
+    {
+        "sid": 329,
+        "name": "Hollow"
+    },
+    {
+        "sid": 330,
+        "name": "Hope Summers"
+    },
+    {
+        "sid": 331,
+        "name": "Howard the Duck"
+    },
+    {
+        "sid": 332,
+        "name": "Hulk"
+    },
+    {
+        "sid": 333,
+        "name": "Human Torch"
+    },
+    {
+        "sid": 334,
+        "name": "Huntress"
+    },
+    {
+        "sid": 335,
+        "name": "Husk"
+    },
+    {
+        "sid": 336,
+        "name": "Hybrsid"
+    },
+    {
+        "sid": 337,
+        "name": "Hydro-Man"
+    },
+    {
+        "sid": 338,
+        "name": "Hyperion"
+    },
+    {
+        "sid": 339,
+        "name": "Iceman"
+    },
+    {
+        "sid": 340,
+        "name": "Impulse"
+    },
+    {
+        "sid": 341,
+        "name": "Indiana Jones"
+    },
+    {
+        "sid": 342,
+        "name": "Indigo"
+    },
+    {
+        "sid": 343,
+        "name": "Ink"
+    },
+    {
+        "sid": 344,
+        "name": "Invisible Woman"
+    },
+    {
+        "sid": 345,
+        "name": "Iron Fist"
+    },
+    {
+        "sid": 346,
+        "name": "Iron Man"
+    },
+    {
+        "sid": 347,
+        "name": "Iron Monger"
+    },
+    {
+        "sid": 348,
+        "name": "Isis"
+    },
+    {
+        "sid": 349,
+        "name": "Jack Bauer"
+    },
+    {
+        "sid": 350,
+        "name": "Jack of Hearts"
+    },
+    {
+        "sid": 351,
+        "name": "Jack-Jack"
+    },
+    {
+        "sid": 352,
+        "name": "James Bond"
+    },
+    {
+        "sid": 353,
+        "name": "James T. Kirk"
+    },
+    {
+        "sid": 354,
+        "name": "Jar Jar Binks"
+    },
+    {
+        "sid": 355,
+        "name": "Jason Bourne"
+    },
+    {
+        "sid": 356,
+        "name": "Jean Grey"
+    },
+    {
+        "sid": 357,
+        "name": "Jean-Luc Picard"
+    },
+    {
+        "sid": 358,
+        "name": "Jennifer Kale"
+    },
+    {
+        "sid": 359,
+        "name": "Jesse Quick"
+    },
+    {
+        "sid": 360,
+        "name": "Jessica Cruz"
+    },
+    {
+        "sid": 361,
+        "name": "Jessica Jones"
+    },
+    {
+        "sid": 362,
+        "name": "Jessica Sanders"
+    },
+    {
+        "sid": 363,
+        "name": "Jigsaw"
+    },
+    {
+        "sid": 364,
+        "name": "Jim Powell"
+    },
+    {
+        "sid": 365,
+        "name": "JJ Powell"
+    },
+    {
+        "sid": 366,
+        "name": "Johann Krauss"
+    },
+    {
+        "sid": 367,
+        "name": "John Constantine"
+    },
+    {
+        "sid": 368,
+        "name": "John Stewart"
+    },
+    {
+        "sid": 369,
+        "name": "John Wraith"
+    },
+    {
+        "sid": 370,
+        "name": "Joker"
+    },
+    {
+        "sid": 371,
+        "name": "Jolt"
+    },
+    {
+        "sid": 372,
+        "name": "Jubilee"
+    },
+    {
+        "sid": 373,
+        "name": "Judge Dredd"
+    },
+    {
+        "sid": 374,
+        "name": "Juggernaut"
+    },
+    {
+        "sid": 375,
+        "name": "Junkpile"
+    },
+    {
+        "sid": 376,
+        "name": "Justice"
+    },
+    {
+        "sid": 377,
+        "name": "Jyn Erso"
+    },
+    {
+        "sid": 378,
+        "name": "K-2SO"
+    },
+    {
+        "sid": 379,
+        "name": "Kang"
+    },
+    {
+        "sid": 380,
+        "name": "Kathryn Janeway"
+    },
+    {
+        "sid": 381,
+        "name": "Katniss Everdeen"
+    },
+    {
+        "sid": 382,
+        "name": "Kevin 11"
+    },
+    {
+        "sid": 383,
+        "name": "Kick-Ass"
+    },
+    {
+        "sid": 384,
+        "name": "Ksid Flash"
+    },
+    {
+        "sid": 385,
+        "name": "Ksid Flash II"
+    },
+    {
+        "sid": 386,
+        "name": "Killer Croc"
+    },
+    {
+        "sid": 387,
+        "name": "Killer Frost"
+    },
+    {
+        "sid": 388,
+        "name": "Kilowog"
+    },
+    {
+        "sid": 389,
+        "name": "King Kong"
+    },
+    {
+        "sid": 390,
+        "name": "King Shark"
+    },
+    {
+        "sid": 391,
+        "name": "Kingpin"
+    },
+    {
+        "sid": 392,
+        "name": "Klaw"
+    },
+    {
+        "sid": 393,
+        "name": "Kool-Asid Man"
+    },
+    {
+        "sid": 394,
+        "name": "Kraven II"
+    },
+    {
+        "sid": 395,
+        "name": "Kraven the Hunter"
+    },
+    {
+        "sid": 396,
+        "name": "Krypto"
+    },
+    {
+        "sid": 397,
+        "name": "Kyle Rayner"
+    },
+    {
+        "sid": 398,
+        "name": "Kylo Ren"
+    },
+    {
+        "sid": 399,
+        "name": "Lady Bullseye"
+    },
+    {
+        "sid": 400,
+        "name": "Lady Deathstrike"
+    },
+    {
+        "sid": 401,
+        "name": "Leader"
+    },
+    {
+        "sid": 402,
+        "name": "Leech"
+    },
+    {
+        "sid": 403,
+        "name": "Legion"
+    },
+    {
+        "sid": 404,
+        "name": "Leonardo"
+    },
+    {
+        "sid": 405,
+        "name": "Lex Luthor"
+    },
+    {
+        "sid": 406,
+        "name": "Light Lass"
+    },
+    {
+        "sid": 407,
+        "name": "Lightning Lad"
+    },
+    {
+        "sid": 408,
+        "name": "Lightning Lord"
+    },
+    {
+        "sid": 409,
+        "name": "Living Brain"
+    },
+    {
+        "sid": 410,
+        "name": "Living Tribunal"
+    },
+    {
+        "sid": 411,
+        "name": "Liz Sherman"
+    },
+    {
+        "sid": 412,
+        "name": "Lizard"
+    },
+    {
+        "sid": 413,
+        "name": "Lobo"
+    },
+    {
+        "sid": 414,
+        "name": "Loki"
+    },
+    {
+        "sid": 415,
+        "name": "Longshot"
+    },
+    {
+        "sid": 416,
+        "name": "Luke Cage"
+    },
+    {
+        "sid": 417,
+        "name": "Luke Campbell"
+    },
+    {
+        "sid": 418,
+        "name": "Luke Skywalker"
+    },
+    {
+        "sid": 419,
+        "name": "Luna"
+    },
+    {
+        "sid": 420,
+        "name": "Lyja"
+    },
+    {
+        "sid": 421,
+        "name": "Mach-IV"
+    },
+    {
+        "sid": 422,
+        "name": "Machine Man"
+    },
+    {
+        "sid": 423,
+        "name": "Magneto"
+    },
+    {
+        "sid": 424,
+        "name": "Magog"
+    },
+    {
+        "sid": 425,
+        "name": "Magus"
+    },
+    {
+        "sid": 426,
+        "name": "Man of Miracles"
+    },
+    {
+        "sid": 427,
+        "name": "Man-Bat"
+    },
+    {
+        "sid": 428,
+        "name": "Man-Thing"
+    },
+    {
+        "sid": 429,
+        "name": "Man-Wolf"
+    },
+    {
+        "sid": 430,
+        "name": "Mandarin"
+    },
+    {
+        "sid": 431,
+        "name": "Mantis"
+    },
+    {
+        "sid": 432,
+        "name": "Martian Manhunter"
+    },
+    {
+        "sid": 433,
+        "name": "Marvel Girl"
+    },
+    {
+        "sid": 434,
+        "name": "Master Brood"
+    },
+    {
+        "sid": 435,
+        "name": "Master Chief"
+    },
+    {
+        "sid": 436,
+        "name": "Match"
+    },
+    {
+        "sid": 437,
+        "name": "Matt Parkman"
+    },
+    {
+        "sid": 438,
+        "name": "Maverick"
+    },
+    {
+        "sid": 439,
+        "name": "Maxima"
+    },
+    {
+        "sid": 440,
+        "name": "Maya Herrera"
+    },
+    {
+        "sid": 441,
+        "name": "Medusa"
+    },
+    {
+        "sid": 442,
+        "name": "Meltdown"
+    },
+    {
+        "sid": 443,
+        "name": "Mephisto"
+    },
+    {
+        "sid": 444,
+        "name": "Mera"
+    },
+    {
+        "sid": 445,
+        "name": "Metallo"
+    },
+    {
+        "sid": 446,
+        "name": "Metamorpho"
+    },
+    {
+        "sid": 447,
+        "name": "Meteorite"
+    },
+    {
+        "sid": 448,
+        "name": "Metron"
+    },
+    {
+        "sid": 449,
+        "name": "Micah Sanders"
+    },
+    {
+        "sid": 450,
+        "name": "Michelangelo"
+    },
+    {
+        "sid": 451,
+        "name": "Micro Lad"
+    },
+    {
+        "sid": 452,
+        "name": "Mimic"
+    },
+    {
+        "sid": 453,
+        "name": "Minna Murray"
+    },
+    {
+        "sid": 454,
+        "name": "Misfit"
+    },
+    {
+        "sid": 455,
+        "name": "Miss Martian"
+    },
+    {
+        "sid": 456,
+        "name": "Mister Fantastic"
+    },
+    {
+        "sid": 457,
+        "name": "Mister Freeze"
+    },
+    {
+        "sid": 458,
+        "name": "Mister Knife"
+    },
+    {
+        "sid": 459,
+        "name": "Mister Mxyzptlk"
+    },
+    {
+        "sid": 460,
+        "name": "Mister Sinister"
+    },
+    {
+        "sid": 461,
+        "name": "Mister Zsasz"
+    },
+    {
+        "sid": 462,
+        "name": "Mockingbird"
+    },
+    {
+        "sid": 463,
+        "name": "MODOK"
+    },
+    {
+        "sid": 464,
+        "name": "Mogo"
+    },
+    {
+        "sid": 465,
+        "name": "Mohinder Suresh"
+    },
+    {
+        "sid": 466,
+        "name": "Moloch"
+    },
+    {
+        "sid": 467,
+        "name": "Molten Man"
+    },
+    {
+        "sid": 468,
+        "name": "Monarch"
+    },
+    {
+        "sid": 469,
+        "name": "Monica Dawson"
+    },
+    {
+        "sid": 470,
+        "name": "Moon Knight"
+    },
+    {
+        "sid": 471,
+        "name": "Moonstone"
+    },
+    {
+        "sid": 472,
+        "name": "Morlun"
+    },
+    {
+        "sid": 473,
+        "name": "Morph"
+    },
+    {
+        "sid": 474,
+        "name": "Moses Magnum"
+    },
+    {
+        "sid": 475,
+        "name": "Mr Immortal"
+    },
+    {
+        "sid": 476,
+        "name": "Mr Incredible"
+    },
+    {
+        "sid": 477,
+        "name": "Ms Marvel II"
+    },
+    {
+        "sid": 478,
+        "name": "Multiple Man"
+    },
+    {
+        "sid": 479,
+        "name": "Mysterio"
+    },
+    {
+        "sid": 480,
+        "name": "Mystique"
+    },
+    {
+        "sid": 481,
+        "name": "Namor"
+    },
+    {
+        "sid": 482,
+        "name": "Namor"
+    },
+    {
+        "sid": 483,
+        "name": "Namora"
+    },
+    {
+        "sid": 484,
+        "name": "Namorita"
+    },
+    {
+        "sid": 485,
+        "name": "Naruto Uzumaki"
+    },
+    {
+        "sid": 486,
+        "name": "Nathan Petrelli"
+    },
+    {
+        "sid": 487,
+        "name": "Nebula"
+    },
+    {
+        "sid": 488,
+        "name": "Negasonic Teenage Warhead"
+    },
+    {
+        "sid": 489,
+        "name": "Nick Fury"
+    },
+    {
+        "sid": 490,
+        "name": "Nightcrawler"
+    },
+    {
+        "sid": 491,
+        "name": "Nightwing"
+    },
+    {
+        "sid": 492,
+        "name": "Niki Sanders"
+    },
+    {
+        "sid": 493,
+        "name": "Nina Theroux"
+    },
+    {
+        "sid": 494,
+        "name": "Nite Owl II"
+    },
+    {
+        "sid": 495,
+        "name": "Northstar"
+    },
+    {
+        "sid": 496,
+        "name": "Nova"
+    },
+    {
+        "sid": 497,
+        "name": "Nova"
+    },
+    {
+        "sid": 498,
+        "name": "Odin"
+    },
+    {
+        "sid": 499,
+        "name": "Offspring"
+    },
+    {
+        "sid": 500,
+        "name": "Omega Red"
+    },
+    {
+        "sid": 501,
+        "name": "Omniscient"
+    },
+    {
+        "sid": 502,
+        "name": "One Punch Man"
+    },
+    {
+        "sid": 503,
+        "name": "One-Above-All"
+    },
+    {
+        "sid": 504,
+        "name": "Onslaught"
+    },
+    {
+        "sid": 505,
+        "name": "Oracle"
+    },
+    {
+        "sid": 506,
+        "name": "Osiris"
+    },
+    {
+        "sid": 507,
+        "name": "Overtkill"
+    },
+    {
+        "sid": 508,
+        "name": "Ozymandias"
+    },
+    {
+        "sid": 509,
+        "name": "Parademon"
+    },
+    {
+        "sid": 510,
+        "name": "Paul Blart"
+    },
+    {
+        "sid": 511,
+        "name": "Penance"
+    },
+    {
+        "sid": 512,
+        "name": "Penance I"
+    },
+    {
+        "sid": 513,
+        "name": "Penance II"
+    },
+    {
+        "sid": 514,
+        "name": "Penguin"
+    },
+    {
+        "sid": 515,
+        "name": "Phantom"
+    },
+    {
+        "sid": 516,
+        "name": "Phantom Girl"
+    },
+    {
+        "sid": 517,
+        "name": "Phoenix"
+    },
+    {
+        "sid": 518,
+        "name": "Plantman"
+    },
+    {
+        "sid": 519,
+        "name": "Plastic Lad"
+    },
+    {
+        "sid": 520,
+        "name": "Plastic Man"
+    },
+    {
+        "sid": 521,
+        "name": "Plastique"
+    },
+    {
+        "sid": 522,
+        "name": "Poison Ivy"
+    },
+    {
+        "sid": 523,
+        "name": "Polaris"
+    },
+    {
+        "sid": 524,
+        "name": "Power Girl"
+    },
+    {
+        "sid": 525,
+        "name": "Power Man"
+    },
+    {
+        "sid": 526,
+        "name": "Predator"
+    },
+    {
+        "sid": 527,
+        "name": "Professor X"
+    },
+    {
+        "sid": 528,
+        "name": "Professor Zoom"
+    },
+    {
+        "sid": 529,
+        "name": "Psylocke"
+    },
+    {
+        "sid": 530,
+        "name": "Punisher"
+    },
+    {
+        "sid": 531,
+        "name": "Purple Man"
+    },
+    {
+        "sid": 532,
+        "name": "Pyro"
+    },
+    {
+        "sid": 533,
+        "name": "Q"
+    },
+    {
+        "sid": 534,
+        "name": "Quantum"
+    },
+    {
+        "sid": 535,
+        "name": "Question"
+    },
+    {
+        "sid": 536,
+        "name": "Quicksilver"
+    },
+    {
+        "sid": 537,
+        "name": "Quill"
+    },
+    {
+        "sid": 538,
+        "name": "Ra's Al Ghul"
+    },
+    {
+        "sid": 539,
+        "name": "Rachel Pirzad"
+    },
+    {
+        "sid": 540,
+        "name": "Rambo"
+    },
+    {
+        "sid": 541,
+        "name": "Raphael"
+    },
+    {
+        "sid": 542,
+        "name": "Raven"
+    },
+    {
+        "sid": 543,
+        "name": "Ray"
+    },
+    {
+        "sid": 544,
+        "name": "Razor-Fist II"
+    },
+    {
+        "sid": 545,
+        "name": "Red Arrow"
+    },
+    {
+        "sid": 546,
+        "name": "Red Hood"
+    },
+    {
+        "sid": 547,
+        "name": "Red Hulk"
+    },
+    {
+        "sid": 548,
+        "name": "Red Mist"
+    },
+    {
+        "sid": 549,
+        "name": "Red Robin"
+    },
+    {
+        "sid": 550,
+        "name": "Red Skull"
+    },
+    {
+        "sid": 551,
+        "name": "Red Tornado"
+    },
+    {
+        "sid": 552,
+        "name": "Redeemer II"
+    },
+    {
+        "sid": 553,
+        "name": "Redeemer III"
+    },
+    {
+        "sid": 554,
+        "name": "Renata Soliz"
+    },
+    {
+        "sid": 555,
+        "name": "Rey"
+    },
+    {
+        "sid": 556,
+        "name": "Rhino"
+    },
+    {
+        "sid": 557,
+        "name": "Rick Flag"
+    },
+    {
+        "sid": 558,
+        "name": "Rsiddler"
+    },
+    {
+        "sid": 559,
+        "name": "Rip Hunter"
+    },
+    {
+        "sid": 560,
+        "name": "Ripcord"
+    },
+    {
+        "sid": 561,
+        "name": "Robin"
+    },
+    {
+        "sid": 562,
+        "name": "Robin II"
+    },
+    {
+        "sid": 563,
+        "name": "Robin III"
+    },
+    {
+        "sid": 564,
+        "name": "Robin V"
+    },
+    {
+        "sid": 565,
+        "name": "Robin VI"
+    },
+    {
+        "sid": 566,
+        "name": "Rocket Raccoon"
+    },
+    {
+        "sid": 567,
+        "name": "Rogue"
+    },
+    {
+        "sid": 568,
+        "name": "Ronin"
+    },
+    {
+        "sid": 569,
+        "name": "Rorschach"
+    },
+    {
+        "sid": 570,
+        "name": "Sabretooth"
+    },
+    {
+        "sid": 571,
+        "name": "Sage"
+    },
+    {
+        "sid": 572,
+        "name": "Sandman"
+    },
+    {
+        "sid": 573,
+        "name": "Sasquatch"
+    },
+    {
+        "sid": 574,
+        "name": "Sauron"
+    },
+    {
+        "sid": 575,
+        "name": "Savage Dragon"
+    },
+    {
+        "sid": 576,
+        "name": "Scarecrow"
+    },
+    {
+        "sid": 577,
+        "name": "Scarlet Spsider"
+    },
+    {
+        "sid": 578,
+        "name": "Scarlet Spsider II"
+    },
+    {
+        "sid": 579,
+        "name": "Scarlet Witch"
+    },
+    {
+        "sid": 580,
+        "name": "Scorpia"
+    },
+    {
+        "sid": 581,
+        "name": "Scorpion"
+    },
+    {
+        "sid": 582,
+        "name": "Sebastian Shaw"
+    },
+    {
+        "sid": 583,
+        "name": "Sentry"
+    },
+    {
+        "sid": 584,
+        "name": "Shadow King"
+    },
+    {
+        "sid": 585,
+        "name": "Shadow Lass"
+    },
+    {
+        "sid": 586,
+        "name": "Shadowcat"
+    },
+    {
+        "sid": 587,
+        "name": "Shang-Chi"
+    },
+    {
+        "sid": 588,
+        "name": "Shatterstar"
+    },
+    {
+        "sid": 589,
+        "name": "She-Hulk"
+    },
+    {
+        "sid": 590,
+        "name": "She-Thing"
+    },
+    {
+        "sid": 591,
+        "name": "Shocker"
+    },
+    {
+        "sid": 592,
+        "name": "Shriek"
+    },
+    {
+        "sid": 593,
+        "name": "Shrinking Violet"
+    },
+    {
+        "sid": 594,
+        "name": "Sif"
+    },
+    {
+        "sid": 595,
+        "name": "Silk"
+    },
+    {
+        "sid": 596,
+        "name": "Silk Spectre"
+    },
+    {
+        "sid": 597,
+        "name": "Silk Spectre II"
+    },
+    {
+        "sid": 598,
+        "name": "Silver Surfer"
+    },
+    {
+        "sid": 599,
+        "name": "Silverclaw"
+    },
+    {
+        "sid": 600,
+        "name": "Simon Baz"
+    },
+    {
+        "sid": 601,
+        "name": "Sinestro"
+    },
+    {
+        "sid": 602,
+        "name": "Siren"
+    },
+    {
+        "sid": 603,
+        "name": "Siren II"
+    },
+    {
+        "sid": 604,
+        "name": "Siryn"
+    },
+    {
+        "sid": 605,
+        "name": "Skaar"
+    },
+    {
+        "sid": 606,
+        "name": "Snake-Eyes"
+    },
+    {
+        "sid": 607,
+        "name": "Snowbird"
+    },
+    {
+        "sid": 608,
+        "name": "Sobek"
+    },
+    {
+        "sid": 609,
+        "name": "Solomon Grundy"
+    },
+    {
+        "sid": 610,
+        "name": "Songbird"
+    },
+    {
+        "sid": 611,
+        "name": "Space Ghost"
+    },
+    {
+        "sid": 612,
+        "name": "Spawn"
+    },
+    {
+        "sid": 613,
+        "name": "Spectre"
+    },
+    {
+        "sid": 614,
+        "name": "Speedball"
+    },
+    {
+        "sid": 615,
+        "name": "Speedy"
+    },
+    {
+        "sid": 616,
+        "name": "Speedy"
+    },
+    {
+        "sid": 617,
+        "name": "Spsider-Carnage"
+    },
+    {
+        "sid": 618,
+        "name": "Spsider-Girl"
+    },
+    {
+        "sid": 619,
+        "name": "Spsider-Gwen"
+    },
+    {
+        "sid": 620,
+        "name": "Spsider-Man"
+    },
+    {
+        "sid": 621,
+        "name": "Spsider-Man"
+    },
+    {
+        "sid": 622,
+        "name": "Spsider-Man"
+    },
+    {
+        "sid": 623,
+        "name": "Spsider-Woman"
+    },
+    {
+        "sid": 624,
+        "name": "Spsider-Woman II"
+    },
+    {
+        "sid": 625,
+        "name": "Spsider-Woman III"
+    },
+    {
+        "sid": 626,
+        "name": "Spsider-Woman IV"
+    },
+    {
+        "sid": 627,
+        "name": "Spock"
+    },
+    {
+        "sid": 628,
+        "name": "Spyke"
+    },
+    {
+        "sid": 629,
+        "name": "Stacy X"
+    },
+    {
+        "sid": 630,
+        "name": "Star-Lord"
+    },
+    {
+        "sid": 631,
+        "name": "Stardust"
+    },
+    {
+        "sid": 632,
+        "name": "Starfire"
+    },
+    {
+        "sid": 633,
+        "name": "Stargirl"
+    },
+    {
+        "sid": 634,
+        "name": "Static"
+    },
+    {
+        "sid": 635,
+        "name": "Steel"
+    },
+    {
+        "sid": 636,
+        "name": "Stephanie Powell"
+    },
+    {
+        "sid": 637,
+        "name": "Steppenwolf"
+    },
+    {
+        "sid": 638,
+        "name": "Storm"
+    },
+    {
+        "sid": 639,
+        "name": "Stormtrooper"
+    },
+    {
+        "sid": 640,
+        "name": "Sunspot"
+    },
+    {
+        "sid": 641,
+        "name": "Superboy"
+    },
+    {
+        "sid": 642,
+        "name": "Superboy-Prime"
+    },
+    {
+        "sid": 643,
+        "name": "Supergirl"
+    },
+    {
+        "sid": 644,
+        "name": "Superman"
+    },
+    {
+        "sid": 645,
+        "name": "Swamp Thing"
+    },
+    {
+        "sid": 646,
+        "name": "Swarm"
+    },
+    {
+        "sid": 647,
+        "name": "Sylar"
+    },
+    {
+        "sid": 648,
+        "name": "Synch"
+    },
+    {
+        "sid": 649,
+        "name": "T-1000"
+    },
+    {
+        "sid": 650,
+        "name": "T-800"
+    },
+    {
+        "sid": 651,
+        "name": "T-850"
+    },
+    {
+        "sid": 652,
+        "name": "T-X"
+    },
+    {
+        "sid": 653,
+        "name": "Taskmaster"
+    },
+    {
+        "sid": 654,
+        "name": "Tempest"
+    },
+    {
+        "sid": 655,
+        "name": "Thanos"
+    },
+    {
+        "sid": 656,
+        "name": "The Cape"
+    },
+    {
+        "sid": 657,
+        "name": "The Comedian"
+    },
+    {
+        "sid": 658,
+        "name": "Thing"
+    },
+    {
+        "sid": 659,
+        "name": "Thor"
+    },
+    {
+        "sid": 660,
+        "name": "Thor Girl"
+    },
+    {
+        "sid": 661,
+        "name": "Thunderbird"
+    },
+    {
+        "sid": 662,
+        "name": "Thunderbird II"
+    },
+    {
+        "sid": 663,
+        "name": "Thunderbird III"
+    },
+    {
+        "sid": 664,
+        "name": "Thunderstrike"
+    },
+    {
+        "sid": 665,
+        "name": "Thundra"
+    },
+    {
+        "sid": 666,
+        "name": "Tiger Shark"
+    },
+    {
+        "sid": 667,
+        "name": "Tigra"
+    },
+    {
+        "sid": 668,
+        "name": "Tinkerer"
+    },
+    {
+        "sid": 669,
+        "name": "Titan"
+    },
+    {
+        "sid": 670,
+        "name": "Toad"
+    },
+    {
+        "sid": 671,
+        "name": "Toxin"
+    },
+    {
+        "sid": 672,
+        "name": "Toxin"
+    },
+    {
+        "sid": 673,
+        "name": "Tracy Strauss"
+    },
+    {
+        "sid": 674,
+        "name": "Trickster"
+    },
+    {
+        "sid": 675,
+        "name": "Trigon"
+    },
+    {
+        "sid": 676,
+        "name": "Triplicate Girl"
+    },
+    {
+        "sid": 677,
+        "name": "Triton"
+    },
+    {
+        "sid": 678,
+        "name": "Two-Face"
+    },
+    {
+        "sid": 679,
+        "name": "Ultragirl"
+    },
+    {
+        "sid": 680,
+        "name": "Ultron"
+    },
+    {
+        "sid": 681,
+        "name": "Utgard-Loki"
+    },
+    {
+        "sid": 682,
+        "name": "Vagabond"
+    },
+    {
+        "sid": 683,
+        "name": "Valerie Hart"
+    },
+    {
+        "sid": 684,
+        "name": "Valkyrie"
+    },
+    {
+        "sid": 685,
+        "name": "Vanisher"
+    },
+    {
+        "sid": 686,
+        "name": "Vegeta"
+    },
+    {
+        "sid": 687,
+        "name": "Venom"
+    },
+    {
+        "sid": 688,
+        "name": "Venom II"
+    },
+    {
+        "sid": 689,
+        "name": "Venom III"
+    },
+    {
+        "sid": 690,
+        "name": "Venompool"
+    },
+    {
+        "sid": 691,
+        "name": "Vertigo II"
+    },
+    {
+        "sid": 692,
+        "name": "Vibe"
+    },
+    {
+        "sid": 693,
+        "name": "Vindicator"
+    },
+    {
+        "sid": 694,
+        "name": "Vindicator"
+    },
+    {
+        "sid": 695,
+        "name": "Violator"
+    },
+    {
+        "sid": 696,
+        "name": "Violet Parr"
+    },
+    {
+        "sid": 697,
+        "name": "Vision"
+    },
+    {
+        "sid": 698,
+        "name": "Vision II"
+    },
+    {
+        "sid": 699,
+        "name": "Vixen"
+    },
+    {
+        "sid": 700,
+        "name": "Vulcan"
+    },
+    {
+        "sid": 701,
+        "name": "Vulture"
+    },
+    {
+        "sid": 702,
+        "name": "Walrus"
+    },
+    {
+        "sid": 703,
+        "name": "War Machine"
+    },
+    {
+        "sid": 704,
+        "name": "Warbird"
+    },
+    {
+        "sid": 705,
+        "name": "Warlock"
+    },
+    {
+        "sid": 706,
+        "name": "Warp"
+    },
+    {
+        "sid": 707,
+        "name": "Warpath"
+    },
+    {
+        "sid": 708,
+        "name": "Wasp"
+    },
+    {
+        "sid": 709,
+        "name": "Watcher"
+    },
+    {
+        "sid": 710,
+        "name": "Weapon XI"
+    },
+    {
+        "sid": 711,
+        "name": "White Canary"
+    },
+    {
+        "sid": 712,
+        "name": "White Queen"
+    },
+    {
+        "sid": 713,
+        "name": "Wildfire"
+    },
+    {
+        "sid": 714,
+        "name": "Winter Soldier"
+    },
+    {
+        "sid": 715,
+        "name": "Wiz Ksid"
+    },
+    {
+        "sid": 716,
+        "name": "Wolfsbane"
+    },
+    {
+        "sid": 717,
+        "name": "Wolverine"
+    },
+    {
+        "sid": 718,
+        "name": "Wonder Girl"
+    },
+    {
+        "sid": 719,
+        "name": "Wonder Man"
+    },
+    {
+        "sid": 720,
+        "name": "Wonder Woman"
+    },
+    {
+        "sid": 721,
+        "name": "Wondra"
+    },
+    {
+        "sid": 722,
+        "name": "Wyatt Wingfoot"
+    },
+    {
+        "sid": 723,
+        "name": "X-23"
+    },
+    {
+        "sid": 724,
+        "name": "X-Man"
+    },
+    {
+        "sid": 725,
+        "name": "Yellow Claw"
+    },
+    {
+        "sid": 726,
+        "name": "Yellowjacket"
+    },
+    {
+        "sid": 727,
+        "name": "Yellowjacket II"
+    },
+    {
+        "sid": 728,
+        "name": "Ymir"
+    },
+    {
+        "sid": 729,
+        "name": "Yoda"
+    },
+    {
+        "sid": 730,
+        "name": "Zatanna"
+    },
+    {
+        "sid": 731,
+        "name": "Zoom"
+    }
+]

@@ -20,6 +20,20 @@ function auth() {
     $('#navbar').hide()
     $('#home').hide()
     $('#superhero-container').hide()
+
+
+    $('#mtg').hide()
+
+    //pokemon
+    $('#pokemon-page').hide()
+    $('#grass-page').hide()
+    $('#water-page').hide()
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+
+
+
+
     if(localStorage.token) {
         $('#navbar').show()
         $('#home').show()
@@ -93,9 +107,45 @@ function register() {
     })
 }
 
+
+function logout () {
+    localStorage.clear()
+    let auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+
+function onSignIn(googleUser) {
+    let id_token = googleUser.getAuthResponse().id_token;
+    // console.log(id_token)
+    $.ajax({
+        url: `${baseUrl}/users/googlesign`,
+        method: 'post',
+        data: {
+            id_token
+        }
+    })
+    .done(data => {
+        console.log(data)
+        localStorage.setItem('token', data.token)
+    })
+
+    .fail(err => {
+        console.log(err)
+    })
+
+    .always(() => {
+
+    })
+}
+
+
+
 function superhero(){
     $('#home').hide()
     $('#superhero-container').show()
+    $('#mtg').hide()
     // fill datalist
     $.ajax({
         url : `${baseUrl}/superheroes/all`,
@@ -109,6 +159,15 @@ function superhero(){
         })  
     })
 }
+
+
+function mtg () {
+    $('#mtg').show()
+    $('#home').hide()
+    $('#superhero-container').hide()
+    $('#landing-page').show()
+}
+
 // all cards pokemon
 function fetchPokemon(event) {
     event.preventDefault()
@@ -426,6 +485,7 @@ function superHeroSearchByName() {
     })
 }
 
+
 function pokemonHide(){
     $('pokemon-page').hide()
     $('#grass-page').hide()   
@@ -433,3 +493,4 @@ function pokemonHide(){
     $('#psychic-page').hide()
     $('#lighting-page').hide()
 }
+

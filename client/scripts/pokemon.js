@@ -1,13 +1,4 @@
-let baseUrl = 'http://localhost:3000'
-
-$(document).ready(function(){
-    
-    $('#grass-page').hide()   
-    $('#water-page').hide() 
-    $('#psychic-page').hide()
-    $('#lighting-page').hide()
-    fetchPokemon(event)
-})
+let pokeUrl = 'http://localhost:3000'
 
 function menuUtama(){
     fetchPokemon(event)
@@ -60,7 +51,7 @@ function grass(event){
     event.preventDefault()
 
     $.ajax({
-        url: `${baseUrl}/pokemon/list/grass`,
+        url: `${pokeUrl}/pokemon/list/grass`,
         method: 'get',
         headers: {
             token: localStorage.token
@@ -91,7 +82,7 @@ function water(event){
 
     event.preventDefault()
     $.ajax({
-        url: `${baseUrl}/pokemon/list/water`,
+        url: `${pokeUrl}/pokemon/list/water`,
         method: 'get',
         headers: {
             token: localStorage.token
@@ -124,7 +115,7 @@ function water(event){
 function psychic(event){
     event.preventDefault()
     $.ajax({
-        url: `${baseUrl}/pokemon/list/psychic`,
+        url: `${pokeUrl}/pokemon/list/psychic`,
         method: 'get',
         headers: {
             token: localStorage.token
@@ -157,7 +148,7 @@ function psychic(event){
 function lighting(event){
     event.preventDefault()
     $.ajax({
-        url: `${baseUrl}/pokemon/list/lighting`,
+        url: `${pokeUrl}/pokemon/list/lighting`,
         method: 'get',
         headers: {
             token: localStorage.token
@@ -198,7 +189,7 @@ function fetchPokemon(event) {
    
    
     $.ajax({
-        url: `${baseUrl}/pokemon/list`,
+        url: `${pokeUrl}/pokemon/list`,
         method: 'get',
         headers: {
             token: localStorage.token

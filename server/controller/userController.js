@@ -12,7 +12,7 @@ class userController{
                 email,
                 password
             })
-            res.status(200).json({
+            res.status(201).json({
                 msg : 'register success',
                 user : {
                     id : user.id,

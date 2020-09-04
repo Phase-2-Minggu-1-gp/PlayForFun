@@ -11,8 +11,7 @@ $( document ).ready(function() {
 });
 
 function auth() {
-    $('#pokemon-container').hide()
-    pokemonHide()
+    $('#pokemon-wrapper').hide()
     $('#login').hide()
     $('#register').hide()
     $('#errors').hide()
@@ -95,6 +94,7 @@ function register() {
 
 function superhero(){
     $('#home').hide()
+    $('#pokemon-wrapper').hide()
     $('#superhero-container').show()
     // fill datalist
     $.ajax({
@@ -122,6 +122,7 @@ function fetchPokemon(event) {
     $('#success').hide()
     $('#navbar').hide()
     $('#home').hide()
+    $('#pokemon-wrapper').show()
     $('#superhero-container').hide()
     $('#pokemon-page').show()
     $('#navbar').show()
@@ -342,6 +343,7 @@ function lighting(event){
 }
 
 function superHeroSearchByName() {
+    
     let name = $('#search-superhero-name').val()
     $.ajax({
         url : `${baseUrl}/superheroes/${name}`,

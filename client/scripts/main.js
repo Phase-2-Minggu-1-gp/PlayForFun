@@ -18,6 +18,13 @@ function auth() {
     $('#navbar').hide()
     $('#home').hide()
     $('#superhero-container').hide()
+    //pokemon
+    $('#pokemon-page').hide()
+    $('#grass-page').hide()
+    $('#water-page').hide()
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+
     if(localStorage.token) {
         $('#navbar').show()
         $('#home').show()
@@ -108,6 +115,241 @@ function superhero(){
             $('#list-superhero-name').append(`<option value="${item.name}">`)
         })  
     })
+
+// all cards pokemon
+function fetchPokemon(event) {
+    event.preventDefault()
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+    $('#login').hide()
+    $('#register').hide()
+    $('#errors').hide()
+    $('#success').hide()
+    $('#navbar').hide()
+    $('#home').hide()
+    $('#superhero-container').hide()
+    $('#pokemon-page').show()
+    $('#navbar').show()
+   
+    $.ajax({
+        url: `${baseUrl}/pokemon/list`,
+        method: 'get',
+        headers : localStorage.token
+    })
+        .done(data =>{
+            // console.log(data)               
+            $('#pokemon-container').empty()
+            data.pokemon.forEach(pokemon =>{
+                // console.log(pokemon)
+                $('#pokemon-container').append(`
+                <div class="gallery" style="height:300px; width:200px;" >
+                <a target="_blank" >
+                    <img onclick="" src="${pokemon.imageUrl}" alt="noimage" width="600" height="auto">
+                </a>
+                <div class="desc">${pokemon.name}</div>
+                </div>
+            
+                `)
+            })
+        })
+        .fail(error => {
+            console.log(error.responseJSON , `gagal <<<<<<<`)
+        })
+}
+
+//pokemon grass
+function grass(event){
+    event.preventDefault()
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+    $('#login').hide()
+    $('#register').hide()
+    $('#errors').hide()
+    $('#success').hide()
+    $('#navbar').hide()
+    $('#home').hide()
+    $('#superhero-container').hide()
+    $('#pokemon-page').hide()
+    $('#grass-page').show()
+    $('#navbar').show()
+    $.ajax({
+        url: `${baseUrl}/pokemon/list/grass`,
+        method: 'get',
+        headers : localStorage.token
+    })
+    .done(data =>{
+        console.log(data) 
+                       
+        $('#grass-container').empty()
+        data.pokemon.forEach(pokemon =>{
+            // console.log(pokemon)
+            $('#grass-container').append(`
+            <div class="gallery" style="height:300px; width:200px;" >
+            <a target="_blank" >
+                <img onclick="" src="${pokemon.imageUrl}" alt="noimage" width="600" height="auto">
+               
+            </a>
+            <div class="desc">${pokemon.name}</div>
+            </div>
+        
+            `)
+        })
+    })
+    .fail(error => {
+        console.log(error.responseJSON , `gagal <<<<<<<`)
+    })
+}
+
+//pokemon water
+
+function water(event){
+    event.preventDefault()
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+    $('#login').hide()
+    $('#register').hide()
+    $('#errors').hide()
+    $('#success').hide()
+    $('#navbar').hide()
+    $('#home').hide()
+    $('#superhero-container').hide()
+    $('#pokemon-page').hide()
+    $('#grass-page').hide()
+    $('#water-page').show()
+    $('#navbar').show()
+    $.ajax({
+        url: `${baseUrl}/pokemon/list/water`,
+        method: 'get',
+        headers : localStorage.token
+    })
+    .done(data =>{
+        // console.log(data) 
+        $('#water-container').empty()     
+        data.pokemon.forEach(pokemon =>{
+            console.log(pokemon)
+            $('#water-container').append(`
+            <div class="gallery" style="height:300px; width:200px;" >
+            <a target="_blank" >
+                <img onclick="" src="${pokemon.imageUrl}" alt="noimage" width="600" height="auto">
+               
+            </a>
+            <div class="desc">${pokemon.name}</div>
+            </div>
+        
+            `)
+        })
+    })
+    .fail(error => {
+        console.log(error.responseJSON , `gagal <<<<<<<`)
+    })
+
+    
+}
+
+//pokemon psychic
+
+function psychic(event){
+    event.preventDefault()
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+    $('#login').hide()
+    $('#register').hide()
+    $('#errors').hide()
+    $('#success').hide()
+    $('#navbar').hide()
+    $('#home').hide()
+    $('#superhero-container').hide()
+    $('#pokemon-page').hide()
+    $('#grass-page').hide()
+    $('#water-page').hide()
+    $('#psychic-page').show()
+    $('#navbar').show()
+    $.ajax({
+        url: `${baseUrl}/pokemon/list/psychic`,
+        method: 'get',
+        headers : localStorage.token
+    })
+    .done(data =>{
+        // console.log(data) 
+        $('#psychic-container').empty()     
+        data.pokemon.forEach(pokemon =>{
+            console.log(pokemon)
+            $('#psychic-container').append(`
+            <div class="gallery" style="height:300px; width:200px;" >
+            <a target="_blank" >
+                <img onclick="" src="${pokemon.imageUrl}" alt="noimage" width="600" height="auto">
+               
+            </a>
+            <div class="desc">${pokemon.name}</div>
+            </div>
+        
+            `)
+        })
+    })
+    .fail(error => {
+        console.log(error.responseJSON , `gagal <<<<<<<`)
+    })
+
+    
+}
+
+// pokemon lighting
+
+function lighting(event){
+    event.preventDefault()
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+    $('#login').hide()
+    $('#register').hide()
+    $('#errors').hide()
+    $('#success').hide()
+    $('#navbar').hide()
+    $('#home').hide()
+    $('#superhero-container').hide()
+    $('#pokemon-page').hide()
+    $('#grass-page').hide()
+    $('#water-page').hide()
+    $('#psychic-page').hide()
+    $('#lighting-page').show()
+    $('#navbar').show()
+    $.ajax({
+        url: `${baseUrl}/pokemon/list/lighting`,
+        method: 'get',
+        headers : localStorage.token
+    })
+    .done(data =>{
+        // console.log(data) 
+        $('#lighting-container').empty()     
+        data.pokemon.forEach(pokemon =>{
+            console.log(pokemon)
+            $('#lighting-container').append(`
+            <div class="gallery" style="height:300px; width:200px;" >
+            <a target="_blank" >
+                <img onclick="" src="${pokemon.imageUrl}" alt="noimage" width="600" height="auto">
+               
+            </a>
+            <div class="desc">${pokemon.name}</div>
+            </div>
+        
+            `)
+        })
+    })
+    .fail(error => {
+        console.log(error.responseJSON , `gagal <<<<<<<`)
+    })
+
+    
+}
     .fail(err => {
         $('#errors').empty().append(JSON.stringify(err.responseJSON.error)).show().fadeOut(2000)
     })

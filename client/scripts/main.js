@@ -99,7 +99,6 @@ function register() {
     })
 }
 
-
 function superhero(){
     $('#home').hide()
     $('#superhero-container').show()
@@ -115,7 +114,7 @@ function superhero(){
             $('#list-superhero-name').append(`<option value="${item.name}">`)
         })  
     })
-
+}
 // all cards pokemon
 function fetchPokemon(event) {
     event.preventDefault()
@@ -248,8 +247,6 @@ function water(event){
     .fail(error => {
         console.log(error.responseJSON , `gagal <<<<<<<`)
     })
-
-    
 }
 
 //pokemon psychic
@@ -348,11 +345,6 @@ function lighting(event){
         console.log(error.responseJSON , `gagal <<<<<<<`)
     })
 
-    
-}
-    .fail(err => {
-        $('#errors').empty().append(JSON.stringify(err.responseJSON.error)).show().fadeOut(2000)
-    })
 }
 
 function superHeroSearchByName() {

@@ -1,12 +1,18 @@
 const URL = "http://localhost:3000";
 
 $( document ).ready(function() {
-    landing()
+    hideAll()
     allCards()
 });
 
-function landing () {
+function hideAll () {
     $('#landing-page').hide()
+    $('#search-card-container').hide()
+    $('#all-cards-container').hide()
+}
+
+function landing () {
+    $('#landing-page').show()
     $('#search-card-container').hide()
     $('#all-cards-container').hide()
 }

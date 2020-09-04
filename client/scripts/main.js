@@ -18,6 +18,7 @@ function auth() {
     $('#navbar').hide()
     $('#home').hide()
     $('#superhero-container').hide()
+    $('#mtg').hide()
     if(localStorage.token) {
         $('#navbar').show()
         $('#home').show()
@@ -92,10 +93,42 @@ function register() {
     })
 }
 
+function logout () {
+    localStorage.clear()
+    let auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+
+function onSignIn(googleUser) {
+    let id_token = googleUser.getAuthResponse().id_token;
+    // console.log(id_token)
+    $.ajax({
+        url: `${baseUrl}/users/googlesign`,
+        method: 'post',
+        data: {
+            id_token
+        }
+    })
+    .done(data => {
+        console.log(data)
+        localStorage.setItem('token', data.token)
+    })
+
+    .fail(err => {
+        console.log(err)
+    })
+
+    .always(() => {
+
+    })
+}
 
 function superhero(){
     $('#home').hide()
     $('#superhero-container').show()
+    $('#mtg').hide()
     // fill datalist
     $.ajax({
         url : `${baseUrl}/superheroes/all`,
@@ -108,4 +141,11 @@ function superhero(){
             $('#list-superhero-name').append(`<option value="${item.name}">`)
         })  
     })
+}
+
+function mtg () {
+    $('#mtg').show()
+    $('#home').hide()
+    $('#superhero-container').hide()
+    $('#landing-page').show()
 }

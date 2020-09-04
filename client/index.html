@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="589151089691-u547430c6tq74bjnu3e9qgvsu029gjh6.apps.googleusercontent.com">
     <title>Home Pages</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" type="text/css" href="./styles/mtg.css">
@@ -33,7 +34,8 @@
                     </div>
                 </form>
             </section>
-            <button type="button" class="btn btn-primary btn-block">Google</button>
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+            <!-- <button type="button" class="btn btn-primary btn-block">Google</button> -->
         </div>
     </section>
 
@@ -120,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <-- profiles -->
+        <!-- profiles -->
     </section>
 
     <section class="container" id="mtg">

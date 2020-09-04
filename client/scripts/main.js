@@ -11,6 +11,8 @@ $( document ).ready(function() {
 });
 
 function auth() {
+    $('#pokemon-container').hide()
+    pokemonHide()
     $('#login').hide()
     $('#register').hide()
     $('#errors').hide()
@@ -18,6 +20,7 @@ function auth() {
     $('#navbar').hide()
     $('#home').hide()
     $('#superhero-container').hide()
+
 
     $('#mtg').hide()
 
@@ -29,6 +32,8 @@ function auth() {
     $('#lighting-page').hide()
 
 
+
+
     if(localStorage.token) {
         $('#navbar').show()
         $('#home').show()
@@ -36,7 +41,6 @@ function auth() {
         $('#login').show()
     }
 }
-
 
 function showRegister(){
     $('#register').show()
@@ -479,5 +483,14 @@ function superHeroSearchByName() {
     .always(_=> {
 
     })
+}
+
+
+function pokemonHide(){
+    $('pokemon-page').hide()
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
 }
 

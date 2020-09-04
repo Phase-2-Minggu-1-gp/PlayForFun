@@ -32,10 +32,19 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 300px !important;
-    padding-top: 120px;
+    padding-top: 30px;
 }
 
 #search-superhero div.mb-3 {
     width: 500px;
     margin: auto;
+}
+
+#superhero-profile {
+    padding: 20px;
+    height: 400px;
+    width: auto;
+    background: white;
+    opacity: 0.9;
+    overflow: scroll;
 }

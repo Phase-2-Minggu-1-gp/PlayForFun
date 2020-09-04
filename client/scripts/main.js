@@ -11,6 +11,8 @@ $( document ).ready(function() {
 });
 
 function auth() {
+    $('#pokemon-container').hide()
+    pokemonHide()
     $('#login').hide()
     $('#register').hide()
     $('#errors').hide()
@@ -19,12 +21,19 @@ function auth() {
     $('#home').hide()
     $('#superhero-container').hide()
     $('#mtg').hide()
+
+
+    $('#mtg').hide()
+
     //pokemon
     $('#pokemon-page').hide()
     $('#grass-page').hide()
     $('#water-page').hide()
     $('#psychic-page').hide()
     $('#lighting-page').hide()
+
+
+
 
     if(localStorage.token) {
         $('#navbar').show()
@@ -33,7 +42,6 @@ function auth() {
         $('#login').show()
     }
 }
-
 
 function showRegister(){
     $('#register').show()
@@ -100,12 +108,14 @@ function register() {
     })
 }
 
+
 function logout () {
     localStorage.clear()
     let auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
       console.log('User signed out.');
     });
+    auth()
   }
 
 function onSignIn(googleUser) {
@@ -121,6 +131,7 @@ function onSignIn(googleUser) {
     .done(data => {
         console.log(data)
         localStorage.setItem('token', data.token)
+        auth()
     })
 
     .fail(err => {
@@ -131,6 +142,8 @@ function onSignIn(googleUser) {
 
     })
 }
+
+
 
 function superhero(){
     $('#home').hide()
@@ -150,12 +163,14 @@ function superhero(){
     })
 }
 
+
 function mtg () {
     $('#mtg').show()
     $('#home').hide()
     $('#superhero-container').hide()
     $('#landing-page').show()
 }
+
 // all cards pokemon
 function fetchPokemon(event) {
     event.preventDefault()
@@ -472,3 +487,13 @@ function superHeroSearchByName() {
 
     })
 }
+
+
+function pokemonHide(){
+    $('pokemon-page').hide()
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+}
+

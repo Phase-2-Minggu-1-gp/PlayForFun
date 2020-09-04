@@ -115,7 +115,6 @@ function superhero(){
             $('#list-superhero-name').append(`<option value="${item.name}">`)
         })  
     })
-}
 
 // all cards pokemon
 function fetchPokemon(event) {
@@ -350,4 +349,93 @@ function lighting(event){
     })
 
     
+}
+    .fail(err => {
+        $('#errors').empty().append(JSON.stringify(err.responseJSON.error)).show().fadeOut(2000)
+    })
+}
+
+function superHeroSearchByName() {
+    let name = $('#search-superhero-name').val()
+    $.ajax({
+        url : `${baseUrl}/superheroes/${name}`,
+        method : 'get',
+        headers : localStorage.token
+    })
+    .done(data => {
+        let all = data.data.results[0];
+        let bio = all.biography;
+        let stat = all.powerstats;
+        console.log(bio)
+        $('#superhero-profile').empty().append(`
+            <div class="d-flex flex-column text-center">
+                <div class="p-2" style="height: 250px;">
+                    <div style="float:left; width:20%; height: 100%; background: url(${all.image.url}); background-size: cover;">
+                    </div>
+                    <div style="float:left; width:80%; margin:20px auto" class="text-center">
+                        <h3>${all.name}</h3>
+                    </div>
+                </div>
+                <div class="p-2 text-left">
+                    <h4 >Biography</h4>
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr>
+                                <td>Full Name</td>
+                                <td>${bio["full-name"]}</td>
+                            </tr>
+                            <tr>
+                                <td>Aliases</td>
+                                <td>${bio.aliases.join(', ')}</td>
+                            </tr>
+                            <tr>
+                                <td>Place of birth</td>
+                                <td>${bio["place-of-birth"]}</td>
+                            </tr>
+                            <tr>
+                                <td>First appearance</td>
+                                <td>${bio["first-appearance"]}</td>
+                            </tr>
+                            <tr>
+                                <td>Publisher</td>
+                                <td>${bio.publisher}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+                <div class="p-2 text-left">
+                    <h4 >Power status</h4>
+                    <table class="table table-sm">
+                        <thead>
+                        <tr>
+                            <th scope="col">Intelligence</th>
+                            <th scope="col">Strength</th>
+                            <th scope="col">Speed</th>
+                            <th scope="col">Durability</th>
+                            <th scope="col">Power</th>
+                            <th scope="col">Combat</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="font-weight:bold;">
+                                <td>${stat.intelligence}</td>
+                                <td>${stat.strength}</td>
+                                <td>${stat.speed}</td>
+                                <td>${stat.durability}</td>
+                                <td>${stat.power}</td>
+                                <td>${stat.combat}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `).show()
+    })
+    .fail(err => {
+        $('#errors').empty().append(JSON.stringify(err)).show().fadeOut(2000)
+    })
+    .always(_=> {
+
+    })
 }

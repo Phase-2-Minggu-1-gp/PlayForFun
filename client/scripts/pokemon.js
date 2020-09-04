@@ -62,6 +62,9 @@ function grass(event){
     $.ajax({
         url: `${baseUrl}/pokemon/list/grass`,
         method: 'get',
+        headers: {
+            token: localStorage.token
+        }
     })
     .done(data =>{
         console.log(data) 
@@ -71,13 +74,11 @@ function grass(event){
             // console.log(pokemon)
             $('#grass-container').append(`
             <div class="gallery" style="height:300px; width:200px;" >
-            <a target="_blank" >
+            <a href="" class="pop">
                 <img onclick="" src="${pokemon.imageUrl}" alt="noimage" width="600" height="auto">
-               
-            </a>
+                </a>
             <div class="desc">${pokemon.name}</div>
             </div>
-        
             `)
         })
     })
@@ -92,6 +93,9 @@ function water(event){
     $.ajax({
         url: `${baseUrl}/pokemon/list/water`,
         method: 'get',
+        headers: {
+            token: localStorage.token
+        }
     })
     .done(data =>{
         // console.log(data) 
@@ -122,6 +126,9 @@ function psychic(event){
     $.ajax({
         url: `${baseUrl}/pokemon/list/psychic`,
         method: 'get',
+        headers: {
+            token: localStorage.token
+        }
     })
     .done(data =>{
         // console.log(data) 
@@ -152,6 +159,9 @@ function lighting(event){
     $.ajax({
         url: `${baseUrl}/pokemon/list/lighting`,
         method: 'get',
+        headers: {
+            token: localStorage.token
+        }
     })
     .done(data =>{
         // console.log(data) 
@@ -190,6 +200,9 @@ function fetchPokemon(event) {
     $.ajax({
         url: `${baseUrl}/pokemon/list`,
         method: 'get',
+        headers: {
+            token: localStorage.token
+        }
     })
         .done(data =>{
             // console.log(data)               

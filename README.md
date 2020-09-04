@@ -802,7 +802,7 @@ PlayForFun API
 
 * **URL**
 
-  http://localhost:3000/superheroes/
+  http://localhost:3000/superheroes/name
 
 * **Method:**
   
@@ -818,91 +818,121 @@ PlayForFun API
 
 **Required:**
  
-   `id=[integer]`
+   `name=[string]`
     
 * **Success Response:**
 
   * **Code:** 200 <br />
     **Content:** 
     `````` 
-    "card": {
-        "name": "Ankh of Mishra",
-        "manaCost": "{2}",
-        "cmc": 2,
-        "colors": [],
-        "colorIdentity": [],
-        "type": "Artifact",
-        "supertypes": [],
-        "types": [
-            "Artifact"
-        ],
-        "subtypes": [],
-        "rarity": "Rare",
-        "set": "LEA",
-        "setName": "Limited Edition Alpha",
-        "text": "Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller.",
-        "artist": "Amy Weber",
-        "number": "230",
-        "layout": "normal",
-        "multiverseid": 1,
-        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1&type=card",
-        "rulings": [
-            {
-                "date": "2004-10-04",
-                "text": "This triggers on any land entering the battlefield. This includes playing a land or putting a land onto the battlefield using a spell or ability."
-            },
-            {
-                "date": "2004-10-04",
-                "text": "It determines the land’s controller at the time the ability resolves. If the land leaves the battlefield before the ability resolves, the land’s last controller before it left is used."
-            }
-        ],
-        "foreignNames": [],
-        "printings": [
-            "2ED",
-            "3ED",
-            "4BB",
-            "4ED",
-            "5ED",
-            "6ED",
-            "CED",
-            "CEI",
-            "FBB",
-            "LEA",
-            "LEB",
-            "ME1",
-            "SUM",
-            "VMA"
-        ],
-        "originalText": "Ankh does 2 damage to anyone who puts a new land into play.",
-        "originalType": "Continuous Artifact",
-        "legalities": [
-            {
-                "format": "Commander",
-                "legality": "Legal"
-            },
-            {
-                "format": "Duel",
-                "legality": "Legal"
-            },
-            {
-                "format": "Legacy",
-                "legality": "Legal"
-            },
-            {
-                "format": "Oldschool",
-                "legality": "Legal"
-            },
-            {
-                "format": "Penny",
-                "legality": "Legal"
-            },
-            {
-                "format": "Vintage",
-                "legality": "Legal"
-            }
-        ],
-        "id": "288f479b-0c22-5670-8a41-2a7a881fffe2"
-    },...
+    { "data": {
+    "response": "success",
+    "results-for": "Hawkeye",
+    "results": [
+      {
+        "id": "313",
+        "name": "Hawkeye",
+        "powerstats": {
+          "intelligence": "56",
+          "strength": "12",
+          "speed": "21",
+          "durability": "10",
+          "power": "29",
+          "combat": "80"
+        },
+        "biography": {
+          "full-name": "Clint Barton",
+          "alter-egos": "Goliath, Ronin",
+          "aliases": [
+            "Ronin",
+            "Goliath",
+            "Golden Archer",
+            "the Marksman",
+            "Father Time",
+            "Longbow"
+          ],
+          "place-of-birth": "Waverly, Iowa",
+          "first-appearance": "Tales of Suspense #57 (September, 1964)",
+          "publisher": "Goliath",
+          "alignment": "good"
+        },
+        "appearance": {
+          "gender": "Male",
+          "race": "Human",
+          "height": [
+            "6'3",
+            "191 cm"
+          ],
+          "weight": [
+            "230 lb",
+            "104 kg"
+          ],
+          "eye-color": "Blue",
+          "hair-color": "Blond"
+        },
+        "work": {
+          "occupation": "Adventurer",
+          "base": "-"
+        },
+        "connections": {
+          "group-affiliation": "Avengers, Thunderbolts, Avengers West Coast, Great Lakes Avengers, Shadows, Chain Gang, former partner of the Black Widow",
+          "relatives": "Harold Barton (father, deceased), Edith Barton (mother, deceased), Bernard Barton (brother, deceased), Barbara Morse (wife, deceased)"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/73.jpg"
+        }
+      },
+      {
+        "id": "314",
+        "name": "Hawkeye II",
+        "powerstats": {
+          "intelligence": "50",
+          "strength": "6",
+          "speed": "8",
+          "durability": "10",
+          "power": "24",
+          "combat": "50"
+        },
+        "biography": {
+          "full-name": "Katherine Elizabeth Bishop",
+          "alter-egos": "No alter egos found.",
+          "aliases": [
+            "Kate Bishop"
+          ],
+          "place-of-birth": "New York City, New York",
+          "first-appearance": "Young Avengers #1 (April, 2005)",
+          "publisher": "Marvel Comics",
+          "alignment": "good"
+        },
+        "appearance": {
+          "gender": "Female",
+          "race": "Human",
+          "height": [
+            "5'5",
+            "165 cm"
+          ],
+          "weight": [
+            "126 lb",
+            "57 kg"
+          ],
+          "eye-color": "Blue",
+          "hair-color": "Black"
+        },
+        "work": {
+          "occupation": "Student; Adventurer; Fugitive",
+          "base": "Bishop Publishing, New York City, New York"
+        },
+        "connections": {
+          "group-affiliation": "Young Avengers, partner of Hawkeye (Clint Barton); formerly Secret Avengers",
+          "relatives": "Derek Bishop (father); Eleanor Bishop (mother, deceased); Susan Bishop (sister);"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/10043.jpg"
+        }
+      }
+    ]
+  }
+},...
         ``````
    
  

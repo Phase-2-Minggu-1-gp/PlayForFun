@@ -169,6 +169,8 @@ function mtg () {
     $('#home').hide()
     $('#superhero-container').hide()
     $('#landing-page').show()
+    $('#pokemon-wrapper').hide()
+    landing()
 }
 
 // all cards pokemon
@@ -188,7 +190,8 @@ function fetchPokemon(event) {
     $('#superhero-container').hide()
     $('#pokemon-page').show()
     $('#navbar').show()
-   
+    $('#mtg').hide()
+
     $.ajax({
         url: `${baseUrl}/pokemon/list`,
         method: 'get',
@@ -232,6 +235,7 @@ function grass(event){
     $('#pokemon-page').hide()
     $('#grass-page').show()
     $('#navbar').show()
+    $('#mtg').hide()
     $.ajax({
         url: `${baseUrl}/pokemon/list/grass`,
         method: 'get',
@@ -279,6 +283,7 @@ function water(event){
     $('#grass-page').hide()
     $('#water-page').show()
     $('#navbar').show()
+    $('#mtg').hide()
     $.ajax({
         url: `${baseUrl}/pokemon/list/water`,
         method: 'get',
@@ -326,6 +331,7 @@ function psychic(event){
     $('#water-page').hide()
     $('#psychic-page').show()
     $('#navbar').show()
+    $('#mtg').hide()
     $.ajax({
         url: `${baseUrl}/pokemon/list/psychic`,
         method: 'get',
@@ -376,6 +382,7 @@ function lighting(event){
     $('#psychic-page').hide()
     $('#lighting-page').show()
     $('#navbar').show()
+    $('#mtg').hide()
     $.ajax({
         url: `${baseUrl}/pokemon/list/lighting`,
         method: 'get',

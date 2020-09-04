@@ -13,6 +13,6 @@ router.use('/users', userRouter)
 // router.use(authentication);
 router.use('/mtg', mtgRouter)
 router.use('/pokemon', pokemonRouter)
-router.use('api/superheroes', superheroesRouter);
+router.use('/superheroes', superheroesRouter);
 
 module.exports = router

@@ -1,6 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 0px;
+          text-align: center;
+        }
+      
+       
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        * {
+        box-sizing: border-box;
+        }
+
+        .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+        
+
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Pages</title>
@@ -69,7 +116,7 @@
                 <a class="nav-link" href="#" onclick="superhero()">Super Heroes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" onclick="pokemonTCG()">Pokemon Trading Card</a>
+                <a class="nav-link" href="#" onclick="fetchPokemon(event)">Pokemon Trading Card</a>
               </li>
           
               <li class="nav-item">
@@ -79,7 +126,7 @@
         </nav>
     </section>
 
-    <section class="container" id="home">
+    <section class="container" id="home" >
         <div class="card-group">
             <div class="card">
               <img src="./assets/images/superhero.jpeg" class="card-img-top" alt="...">
@@ -94,7 +141,7 @@
               <div class="card-body">
                 <h5 class="card-title">Pokemon TCG</h5>
                 <p class="card-text">you can find out your favorite Pokemon card here</p>
-                <a class="btn btn-primary" href="#" onclick="pokemonTCG()">click here</a>
+                <a class="btn btn-primary" href="#" onclick=" fetchPokemon(event)">click here</a>
               </div>
             </div>
             <div class="card">
@@ -120,7 +167,7 @@
                 </div>
             </div>
         </div>
-        <-- profiles -->
+        <!-- <-- profiles -->
     </section>
 
     <section class="container" id="mtg">
@@ -167,7 +214,124 @@
             </div>
         </div>
     </section>
+
+     <!-- Pokemon List -->
+	<section class="container" id="pokemon-page" >
+		<h2 style="text-align:center" >List Pokemon Card</h2><br>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_main" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Select Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="" onclick="fetchPokemon(event)">All Card</a>
+              <a class="dropdown-item" href="" onclick="grass(event)">Grass</a>
+              <a class="dropdown-item" href="" onclick="water(event)">Water</a>
+              <a class="dropdown-item" href="" onclick="psychic(event)">Psychic</a>
+              <a class="dropdown-item" href="" onclick="lighting(event)">Lightning</a>
+            
+            </div>
+          </div>
+            <div id="pokemon-container" class="rows"></div>
+      
+      <br>
     
+	</section>
+      <!--  -->
+
+       <!--Pokemon tipe Grass -->
+	<section class="container" id="grass-page">
+		<h2 style="text-align:center" >List Pokemon Grass Card</h2><br>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Select Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="" onclick="fetchPokemon(event)">All Card</a>
+              <a class="dropdown-item" href="" onclick="grass(event)">Grass</a>
+              <a class="dropdown-item" href="" onclick="water(event)">Water</a>
+              <a class="dropdown-item" href="" onclick="psychic(event)">Psychic</a>
+              <a class="dropdown-item" href="" onclick="lighting(event)">Lightning</a>
+             
+            </div>
+          </div>
+            <div id="grass-container" class="rows"></div>
+      
+      <br>
+    
+	</section>
+      <!--  -->
+
+
+        <!-- Pokemon Water -->
+	<section class="container" id="water-page">
+		<h2 style="text-align:center" >List Pokemon Water Card</h2><br>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Select Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="" onclick="fetchPokemon(event)">All Card</a>
+              <a class="dropdown-item" href="" onclick="grass(event)">Grass</a>
+              <a class="dropdown-item" href="" onclick="water(event)">Water</a>
+              <a class="dropdown-item" href="" onclick="psychic(event)">Psychic</a>
+              <a class="dropdown-item" href="" onclick="lighting(event)">Lightning</a>
+            
+            </div>
+          </div>
+            <div id="water-container" class="rows"></div>
+      
+      <br>
+    
+	</section>
+      <!--  -->
+
+      <!-- psychic -->
+	<section class="container" id="psychic-page">
+		<h2 style="text-align:center" >List Pokemon Psychic Card</h2><br>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Select Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="" onclick="fetchPokemon(event)">All Card</a>
+                <a class="dropdown-item" href="" onclick="grass(event)">Grass</a>
+                <a class="dropdown-item" href="" onclick="water(event)">Water</a>
+                <a class="dropdown-item" href="" onclick="psychic(event)">Psychic</a>
+                <a class="dropdown-item" href="" onclick="lighting(event)">Lightning</a>
+            
+            </div>
+          </div>
+        <div id="psychic-container" class="rows"></div>
+      <br>
+    </section>
+    <!--  -->
+
+    <!-- lighting -->
+	<section class="container" id="lighting-page">
+		<h2 style="text-align:center" >List Pokemon Lightning Card</h2><br>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Select Type
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="" onclick="fetchPokemon(event)">All Card</a>
+        <a class="dropdown-item" href="" onclick="grass(event)">Grass</a>
+        <a class="dropdown-item" href="" onclick="water(event)">Water</a>
+        <a class="dropdown-item" href="" onclick="psychic(event)">Psychic</a>
+        <a class="dropdown-item" href="" onclick="lighting(event)">Lightning</a>
+  
+      </div>
+    </div>
+    <div id="lighting-container" class="rows"></div>
+      
+    <br>
+    </section>
+    <!--  -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>    
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="./scripts/main.js"></script>

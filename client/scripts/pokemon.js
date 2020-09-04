@@ -1,15 +1,21 @@
 let baseUrl = 'http://localhost:3000'
 
 $(document).ready(function(){
-   menuUtama()
-})
-
-function menuUtama(){
-    fetchPokemon()
+    
     $('#grass-page').hide()   
     $('#water-page').hide() 
     $('#psychic-page').hide()
     $('#lighting-page').hide()
+    fetchPokemon(event)
+})
+
+function menuUtama(){
+    fetchPokemon(event)
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+    $('#pokemon-page').show()
     
 }
 
@@ -50,34 +56,6 @@ function pilihLighting(){
 }
 
 
-function fetchPokemon() {
-    $.ajax({
-        url: `${baseUrl}/pokemon/list`,
-        method: 'get',
-    })
-        .done(data =>{
-            console.log(data)               
-            $('#pokemon-container').empty()
-            data.pokemon.forEach(pokemon =>{
-                // console.log(pokemon)
-                $('#pokemon-container').append(`
-                <div class="gallery" style="height:300px; width:200px;" >
-                <a target="_blank" >
-                    <img onclick="" src="${pokemon.imageUrl}" alt="noimage" width="600" height="auto">
-                   
-                </a>
-                <div class="desc">${pokemon.name}</div>
-                </div>
-            
-                `)
-            })
-        })
-        .fail(error => {
-            console.log(error.responseJSON , `gagal <<<<<<<`)
-        })
-}
-
-
 function grass(event){
     event.preventDefault()
 
@@ -109,6 +87,7 @@ function grass(event){
 }
 
 function water(event){
+
     event.preventDefault()
     $.ajax({
         url: `${baseUrl}/pokemon/list/water`,
@@ -198,5 +177,39 @@ function lighting(event){
     
 }
 
+
+
+function fetchPokemon(event) {
+    event.preventDefault()
+    $('#grass-page').hide()   
+    $('#water-page').hide() 
+    $('#psychic-page').hide()
+    $('#lighting-page').hide()
+   
+   
+    $.ajax({
+        url: `${baseUrl}/pokemon/list`,
+        method: 'get',
+    })
+        .done(data =>{
+            // console.log(data)               
+            $('#pokemon-container').empty()
+            data.pokemon.forEach(pokemon =>{
+                // console.log(pokemon)
+                $('#pokemon-container').append(`
+                <div class="gallery" style="height:300px; width:200px;" >
+                <a target="_blank" >
+                    <img onclick="" src="${pokemon.imageUrl}" alt="noimage" width="600" height="auto">
+                </a>
+                <div class="desc">${pokemon.name}</div>
+                </div>
+            
+                `)
+            })
+        })
+        .fail(error => {
+            console.log(error.responseJSON , `gagal <<<<<<<`)
+        })
+}
 
 

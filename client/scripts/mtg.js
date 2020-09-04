@@ -6,7 +6,7 @@ $( document ).ready(function() {
 });
 
 function landing () {
-    $('#landing-page').show()
+    $('#landing-page').hide()
     $('#search-card-container').hide()
     $('#all-cards-container').hide()
 }
